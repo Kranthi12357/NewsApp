@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TextView
+
+        android:id="@+id/pillarName"
+        android:text="hello"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/webtitle"
+            android:text="corona "
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/sectionName"
+            android:text="sports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <TextView
+        android:text="1-12-2020"
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_height="wrap_content"/>
+        <TextView
+            android:text="hello"
+            android:layout_width="wrap_content"
+            android:id="@+id/author"
+            android:padding="10dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
